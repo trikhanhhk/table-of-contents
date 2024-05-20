@@ -1,6 +1,6 @@
 {
   "name": "table-of-contents-tk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The TableOfContents component provides a dynamic, interactive table of contents for your content.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
