@@ -1,14 +1,19 @@
 {
-  "name": "table-of-contents",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "table-of-contents-tk",
+  "version": "1.0.2",
+  "description": "The TableOfContents component provides a dynamic, interactive table of contents for your content.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "keywords": ["table-of-contents", "table of contents", "create table of content article", "article table of contents", "auto render tables of content", "heading article", "heading", "get heading web", "get heading content"],
-  "author": "",
+  "author": "tk0038",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1"

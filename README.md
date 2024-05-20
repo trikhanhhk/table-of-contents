@@ -61,7 +61,7 @@ export default MyComponent;
 |activeColor |An optional color for the active heading link. |string| #03a9f4
 |defaultColor |An optional color for the non-active heading links.| string| black
 
-##Style
+## Style
 To style the component, you can use the provided class names and apply custom CSS as needed
 Here is example:
 
@@ -113,7 +113,7 @@ In addition to the TableOfContents component, this package provides utility func
 
 ```javascript
 import React, { useRef, useEffect, useState } from 'react';
-import { renderHeadingsData, firstHandle, handleScroll, handleClick } from 'table-of-contents-tk';
+import { renderHeadingsData, firstHandle, handleScroll, handleClick } from 'table-of-contents-tk/lib/master';
 
 const CustomTableOfContents = () => {
   const contentRef = useRef<HTMLDivElement>(null);
