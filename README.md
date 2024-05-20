@@ -1,9 +1,9 @@
 # table-of-contents
 
-##Descriptions
+## Descriptions
 The TableOfContents component provides a dynamic, interactive table of contents for your content. It highlights the currently active section based on the user's scroll position and allows for smooth navigation through headings in your document.
 
-##Installation
+## Installation
 First, install the package from npm:
 
 ```bash
@@ -16,7 +16,7 @@ Or use yarn
 yarn add install table-of-contents-tk
 ```
 
-##Usage
+## Usage
 
 ```javascript
 import React, { useRef } from 'react';
@@ -54,7 +54,7 @@ export default MyComponent;
 
 ```
 
-##Props
+## Props
 | Prop | Description | Type | Default |
 |contentRef |A reference to the content container where the headings are located.| React.RefObject<HTMLDivElement>|
 |offsetTop|An optional offset from the top of the viewport for calculating the active heading.| number| 0
@@ -84,7 +84,7 @@ Here is example:
 }
 ```
 
-##Table of Contents Utility Functions
+## Table of Contents Utility Functions
 In addition to the TableOfContents component, this package provides utility functions for manually managing the table of contents (TOC) in your React applications. These functions can be used to customize the behavior of your TOC or to integrate it with other components or libraries.
 
 ### Utility Functions
@@ -109,7 +109,7 @@ In addition to the TableOfContents component, this package provides utility func
 | `offsetTop`  | An optional offset from the top of the viewport. | `number \| null \| undefined`     |
 | `id`         | The ID of the heading to scroll to.              | `string`                          |
 
-###Usage example
+### Usage example
 
 ```javascript
 import React, { useRef, useEffect, useState } from 'react';
