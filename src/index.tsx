@@ -55,7 +55,7 @@ const TableOfContents: React.FC<Props> = (props) => {
     };
 
     return (
-        <div className='table-of-content'>
+        <div className='table-of-content-tk'>
             <nav>
                 <ul>
                     {headings.map((heading) => (
