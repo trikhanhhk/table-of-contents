@@ -1,0 +1,25 @@
+{
+  "name": "table-of-contents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": ["table-of-contents", "table of contents", "create table of content article", "article table of contents", "auto render tables of content", "heading article", "heading", "get heading web", "get heading content"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trikhanhhk/table-of-contents"
+  },
+
+  "devDependencies": {
+    "@types/react": "^18.3.2"
+  }
+}
