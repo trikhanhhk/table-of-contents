@@ -55,11 +55,13 @@ export default MyComponent;
 ```
 
 ## Props
-| Prop | Description | Type | Default |
-|contentRef |A reference to the content container where the headings are located.| React.RefObject<HTMLDivElement>|
-|offsetTop|An optional offset from the top of the viewport for calculating the active heading.| number| 0
-|activeColor |An optional color for the active heading link. |string| #03a9f4
-|defaultColor |An optional color for the non-active heading links.| string| black
+| Prop          | Description                                                                                     | Type                                          | Default   |
+|---------------|-------------------------------------------------------------------------------------------------|-----------------------------------------------|-----------|
+| `contentRef`  | A reference to the content container where the headings are located.                            | `React.RefObject<HTMLDivElement>`             | -         |
+| `offsetTop`   | An optional offset from the top of the viewport for calculating the active heading.             | `number`                                      | 0         |
+| `activeColor` | An optional color for the active heading link.                                                  | `string`                                      | `#03a9f4` |
+| `defaultColor`| An optional color for the non-active heading links.                                             | `string`                                      | `black`   |
+
 
 ## Style
 To style the component, you can use the provided class names and apply custom CSS as needed
